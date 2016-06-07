@@ -4,11 +4,14 @@ using System.Collections;
 public class InfiniteTerrain : MonoBehaviour
 {
 	public GameObject PlayerObject;
-
 	private Terrain[,] _terrainGrid = new Terrain[3,3];
+
+	GameObject scene_0;
 
 	void Start ()
 	{
+		scene_0 = GameObject.FindWithTag ("Scene_0");
+
 		Terrain linkedTerrain = gameObject.GetComponent<Terrain>();
 
 		_terrainGrid[0,0] = Terrain.CreateTerrainGameObject(linkedTerrain.terrainData).GetComponent<Terrain>();
@@ -20,6 +23,12 @@ public class InfiniteTerrain : MonoBehaviour
 		_terrainGrid[2,0] = Terrain.CreateTerrainGameObject(linkedTerrain.terrainData).GetComponent<Terrain>();
 		_terrainGrid[2,1] = Terrain.CreateTerrainGameObject(linkedTerrain.terrainData).GetComponent<Terrain>();
 		_terrainGrid[2,2] = Terrain.CreateTerrainGameObject(linkedTerrain.terrainData).GetComponent<Terrain>();
+
+		for (int i = 0; i <= 2; i++) {
+			for (int j = 0; j <= 2; j++) {
+				_terrainGrid [i,j].transform.parent = scene_0.transform;
+			}
+		}
 
 		UpdateTerrainPositionsAndNeighbors();
 	}

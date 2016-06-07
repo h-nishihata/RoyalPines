@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-public class plainSpawner : MonoBehaviour {
+public class PlainSpawner : MonoBehaviour {
 
 	public Transform plane;
 	private int planeScale = 3;

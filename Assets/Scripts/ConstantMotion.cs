@@ -105,7 +105,65 @@ public class ConstantMotion : MonoBehaviour
             else
                 transform.rotation = delta * transform.rotation;
         }
+
+		
+		//	if(currentScene == 0){
+
+			if (transform.position.z >= 80.0f) {
+//				Rotate (-1);
+				if (transform.localEulerAngles.y >= 180.0f) {
+					rotation.mode = TransformMode.Off;
+					transform.rotation = Quaternion.Euler (0, 180, 0);
+
+					position.velocity = -1.0f;
+				} else {
+					rotation.mode = TransformMode.YAxis;
+					rotation.velocity = 20.0f;
+					rotation.randomness = 0.0f;
+				}
+			} else if (transform.position.z <= 60.0f) {
+//				Rotate (1);
+				if ((transform.localEulerAngles.y > 359.0f)) {
+					rotation.mode = TransformMode.Off;
+					transform.rotation = Quaternion.Euler (0, 0, 0);
+
+					position.velocity = 1.0f;
+				} else {
+					rotation.mode = TransformMode.YAxis;
+					rotation.velocity = -20.0f;
+					rotation.randomness = 0.0f;
+				}
+			}
+
+
     }
+
+	//　あとでリファクタリング
+	void Rotate(int dir){
+			
+			int yRot;
+			if (dir < 0) { yRot = 180; } else {	yRot = 0; }
+
+//			Debug.Log ("dir : " + dir + "yRot : " + yRot);
+
+			if (transform.localEulerAngles.y > 359.0f - yRot) {
+				
+				rotation.mode = TransformMode.YAxis;
+				rotation.velocity = 20.0f * dir;
+				rotation.randomness = 0.0f;
+
+			} else {
+				
+				rotation.mode = TransformMode.Off;
+				transform.rotation = Quaternion.Euler (0, yRot, 0);
+				position.velocity = 1.0f * dir;
+
+			}
+
+	}
+
+
 }
+
 
 } // namespace Reaktion

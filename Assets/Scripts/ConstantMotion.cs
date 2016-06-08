@@ -109,7 +109,7 @@ public class ConstantMotion : MonoBehaviour
 		
 		//	if(currentScene == 0){
 
-			if (transform.position.z >= 80.0f) {
+			if (transform.position.z >= 30.0f) {
 //				Rotate (-1);
 				if (transform.localEulerAngles.y >= 180.0f) {
 					rotation.mode = TransformMode.Off;
@@ -121,7 +121,7 @@ public class ConstantMotion : MonoBehaviour
 					rotation.velocity = 20.0f;
 					rotation.randomness = 0.0f;
 				}
-			} else if (transform.position.z <= 60.0f) {
+			} else if (transform.position.z <= -30.0f) {
 //				Rotate (1);
 				if ((transform.localEulerAngles.y > 359.0f)) {
 					rotation.mode = TransformMode.Off;

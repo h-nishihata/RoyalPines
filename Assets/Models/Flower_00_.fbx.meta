@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 87428407d7ae74258a4dc0d452e45c0b
-timeCreated: 1465368326
+guid: d13e7afdd4c4e42199cca1ce7b01a73e
+timeCreated: 1465378702
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: F_foliageplant_09_LOD0_01
+    100000: F_foliageplant_08_LOD0_01
     100002: //RootNode
-    400000: F_foliageplant_09_LOD0_01
+    400000: F_foliageplant_08_LOD0_01
     400002: //RootNode
-    2300000: F_foliageplant_09_LOD0_01
-    3300000: F_foliageplant_09_LOD0_01
-    4300000: F_foliageplant_09_LOD0_01
+    2300000: F_foliageplant_08_LOD0_01
+    3300000: F_foliageplant_08_LOD0_01
+    4300000: F_foliageplant_08_LOD0_01
   materials:
     importMaterials: 1
     materialName: 0

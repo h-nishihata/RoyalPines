@@ -11,7 +11,8 @@ public class Rabbit : MonoBehaviour {
 	private GameObject flow_tgt;
 	float flow_speed = 0.01f;
 
-
+	Animation anm;
+	AnimationState state;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,9 @@ public class Rabbit : MonoBehaviour {
 		InvokeRepeating ("UpdatePosition", 0, interval);
 		flow_tgt = new GameObject();
 		flow_tgt.transform.position = target;
+
+		anm = GetComponent<Animation> ();
+//		state = anm ("walk");
 
 	}
 		

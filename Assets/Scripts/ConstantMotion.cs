@@ -81,6 +81,11 @@ public class ConstantMotion : MonoBehaviour
     public TransformElement rotation = new TransformElement{ velocity = 30 };
     public bool useLocalCoordinate = true;
 
+	public bool rotateMode;
+	public SceneManager manager;
+	float time;
+
+
     void Awake()
     {
         position.Initialize();
@@ -107,58 +112,42 @@ public class ConstantMotion : MonoBehaviour
         }
 
 		
-		//	if(currentScene == 0){
+		if (manager.currentScene == 0) {
+			if (transform.position.z >= 10.0f) {				
+				Rotate (180.0f, 10.0f, 180, -0.6f);
 
-			if (transform.position.z >= 30.0f) {
-//				Rotate (-1);
-				if (transform.localEulerAngles.y >= 180.0f) {
-					rotation.mode = TransformMode.Off;
-					transform.rotation = Quaternion.Euler (0, 180, 0);
+			} else if (transform.position.z <= -10.0f) {				
+				Rotate (359.0f, -10.0f, 0, 0.6f);
 
-					position.velocity = -1.0f;
-				} else {
-					rotation.mode = TransformMode.YAxis;
-					rotation.velocity = 20.0f;
-					rotation.randomness = 0.0f;
-				}
-			} else if (transform.position.z <= -30.0f) {
-//				Rotate (1);
-				if ((transform.localEulerAngles.y > 359.0f)) {
-					rotation.mode = TransformMode.Off;
-					transform.rotation = Quaternion.Euler (0, 0, 0);
-
-					position.velocity = 1.0f;
-				} else {
-					rotation.mode = TransformMode.YAxis;
-					rotation.velocity = -20.0f;
-					rotation.randomness = 0.0f;
-				}
+			}else if(transform.position.z == (int)0){
+				time = 0;	
 			}
 
-
+		}
     }
 
-	//　あとでリファクタリング
-	void Rotate(int dir){
+
+		void Rotate(float rotLimit, float rotVel, int yRot, float posVel){
 			
-			int yRot;
-			if (dir < 0) { yRot = 180; } else {	yRot = 0; }
-
-//			Debug.Log ("dir : " + dir + "yRot : " + yRot);
-
-			if (transform.localEulerAngles.y > 359.0f - yRot) {
-				
-				rotation.mode = TransformMode.YAxis;
-				rotation.velocity = 20.0f * dir;
-				rotation.randomness = 0.0f;
-
-			} else {
-				
-				rotation.mode = TransformMode.Off;
-				transform.rotation = Quaternion.Euler (0, yRot, 0);
-				position.velocity = 1.0f * dir;
-
+			position.velocity = Mathf.Lerp (posVel*-1, 0f, time);
+			if (time < 1) {
+				time += Time.deltaTime / 20.0f;
 			}
+
+
+//			if (position.velocity == 0) {
+				if (transform.localEulerAngles.y < rotLimit) {
+					rotateMode = true;
+					rotation.mode = TransformMode.YAxis;
+					rotation.velocity = rotVel;
+//					rotation.randomness = 0.0f;
+				} else {
+					rotateMode = false;
+					rotation.mode = TransformMode.Off;
+					transform.rotation = Quaternion.Euler (0, yRot, 0);
+					position.velocity = posVel;
+				}
+//			}
 
 	}
 

@@ -36,9 +36,7 @@ public class SceneManager : MonoBehaviour {
 		if (currentScene == 0) {
 			if (!camRoot.rotateMode) {
 				camRoot.position.mode = Reaktion.ConstantMotion.TransformMode.ZAxis;
-//				camRoot.position.velocity = 0.6f;
-//			camRoot.position.randomness = 0;
-				camRoot.rotation.mode = Reaktion.ConstantMotion.TransformMode.Off;
+				camRoot.rotation.randomness = 1;
 
 				jitter.positionFrequency = jitter.rotationFrequency = 0.1f;
 				jitter.positionAmount = 2.0f;

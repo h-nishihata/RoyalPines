@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: ba771a8bb3c9f490a9ea8cec744eaa46
+timeCreated: 1466214582
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: joint1
+    100004: joint10
+    100006: joint11
+    100008: joint12
+    100010: joint13
+    100012: joint14
+    100014: joint15
+    100016: joint16
+    100018: joint17
+    100020: joint18
+    100022: joint19
+    100024: joint19 1
+    100026: joint19 2
+    100028: joint19 3
+    100030: joint19 4
+    100032: joint19 5
+    100034: joint19 6
+    100036: joint19 7
+    100038: joint2
+    100040: joint2 1
+    100042: joint2 10
+    100044: joint2 11
+    100046: joint2 2
+    100048: joint2 3
+    100050: joint2 4
+    100052: joint2 5
+    100054: joint2 6
+    100056: joint2 7
+    100058: joint2 8
+    100060: joint2 9
+    100062: joint20
+    100064: joint20 1
+    100066: joint20 2
+    100068: joint20 3
+    100070: joint20 4
+    100072: joint20 5
+    100074: joint20 6
+    100076: joint20 7
+    100078: joint21
+    100080: joint21 1
+    100082: joint21 2
+    100084: joint21 3
+    100086: joint21 4
+    100088: joint21 5
+    100090: joint21 6
+    100092: joint21 7
+    100094: joint22
+    100096: joint22 1
+    100098: joint22 2
+    100100: joint22 3
+    100102: joint22 4
+    100104: joint22 5
+    100106: joint22 6
+    100108: joint22 7
+    100110: joint23
+    100112: joint23 1
+    100114: joint23 2
+    100116: joint23 3
+    100118: joint23 4
+    100120: joint23 5
+    100122: joint23 6
+    100124: joint23 7
+    100126: joint24
+    100128: joint25
+    100130: joint26
+    100132: joint27
+    100134: joint28
+    100136: joint29
+    100138: joint3
+    100140: joint3 1
+    100142: joint3 10
+    100144: joint3 11
+    100146: joint3 2
+    100148: joint3 3
+    100150: joint3 4
+    100152: joint3 5
+    100154: joint3 6
+    100156: joint3 7
+    100158: joint3 8
+    100160: joint3 9
+    100162: joint30
+    100164: joint5
+    100166: joint6
+    100168: joint7
+    100170: joint8
+    100172: joint9
+    100174: Root
+    400000: //RootNode
+    400002: joint1
+    400004: joint10
+    400006: joint11
+    400008: joint12
+    400010: joint13
+    400012: joint14
+    400014: joint15
+    400016: joint16
+    400018: joint17
+    400020: joint18
+    400022: joint19
+    400024: joint19 1
+    400026: joint19 2
+    400028: joint19 3
+    400030: joint19 4
+    400032: joint19 5
+    400034: joint19 6
+    400036: joint19 7
+    400038: joint2
+    400040: joint2 1
+    400042: joint2 10
+    400044: joint2 11
+    400046: joint2 2
+    400048: joint2 3
+    400050: joint2 4
+    400052: joint2 5
+    400054: joint2 6
+    400056: joint2 7
+    400058: joint2 8
+    400060: joint2 9
+    400062: joint20
+    400064: joint20 1
+    400066: joint20 2
+    400068: joint20 3
+    400070: joint20 4
+    400072: joint20 5
+    400074: joint20 6
+    400076: joint20 7
+    400078: joint21
+    400080: joint21 1
+    400082: joint21 2
+    400084: joint21 3
+    400086: joint21 4
+    400088: joint21 5
+    400090: joint21 6
+    400092: joint21 7
+    400094: joint22
+    400096: joint22 1
+    400098: joint22 2
+    400100: joint22 3
+    400102: joint22 4
+    400104: joint22 5
+    400106: joint22 6
+    400108: joint22 7
+    400110: joint23
+    400112: joint23 1
+    400114: joint23 2
+    400116: joint23 3
+    400118: joint23 4
+    400120: joint23 5
+    400122: joint23 6
+    400124: joint23 7
+    400126: joint24
+    400128: joint25
+    400130: joint26
+    400132: joint27
+    400134: joint28
+    400136: joint29
+    400138: joint3
+    400140: joint3 1
+    400142: joint3 10
+    400144: joint3 11
+    400146: joint3 2
+    400148: joint3 3
+    400150: joint3 4
+    400152: joint3 5
+    400154: joint3 6
+    400156: joint3 7
+    400158: joint3 8
+    400160: joint3 9
+    400162: joint30
+    400164: joint5
+    400166: joint6
+    400168: joint7
+    400170: joint8
+    400172: joint9
+    400174: Root
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 57
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint1
+        weight: 1
+      - path: Root/joint1/joint2
+        weight: 1
+      - path: Root/joint1/joint2/joint3
+        weight: 1
+      - path: Root/joint5
+        weight: 1
+      - path: Root/joint5/joint2 7
+        weight: 1
+      - path: Root/joint5/joint2 7/joint3 7
+        weight: 1
+      - path: Root/joint6
+        weight: 1
+      - path: Root/joint6/joint2 8
+        weight: 1
+      - path: Root/joint6/joint2 8/joint3 8
+        weight: 1
+      - path: Root/joint7
+        weight: 1
+      - path: Root/joint7/joint2 9
+        weight: 1
+      - path: Root/joint7/joint2 9/joint3 9
+        weight: 1
+      - path: Root/joint8
+        weight: 1
+      - path: Root/joint8/joint2 10
+        weight: 1
+      - path: Root/joint8/joint2 10/joint3 10
+        weight: 1
+      - path: Root/joint9
+        weight: 1
+      - path: Root/joint9/joint2 11
+        weight: 1
+      - path: Root/joint9/joint2 11/joint3 11
+        weight: 1
+      - path: Root/joint10
+        weight: 1
+      - path: Root/joint10/joint2 1
+        weight: 1
+      - path: Root/joint10/joint2 1/joint3 1
+        weight: 1
+      - path: Root/joint11
+        weight: 1
+      - path: Root/joint11/joint2 2
+        weight: 1
+      - path: Root/joint11/joint2 2/joint3 2
+        weight: 1
+      - path: Root/joint12
+        weight: 1
+      - path: Root/joint12/joint2 3
+        weight: 1
+      - path: Root/joint12/joint2 3/joint3 3
+        weight: 1
+      - path: Root/joint13
+        weight: 1
+      - path: Root/joint13/joint2 4
+        weight: 1
+      - path: Root/joint13/joint2 4/joint3 4
+        weight: 1
+      - path: Root/joint14
+        weight: 1
+      - path: Root/joint14/joint2 5
+        weight: 1
+      - path: Root/joint14/joint2 5/joint3 5
+        weight: 1
+      - path: Root/joint15
+        weight: 1
+      - path: Root/joint15/joint2 6
+        weight: 1
+      - path: Root/joint15/joint2 6/joint3 6
+        weight: 1
+      - path: Root/joint16
+        weight: 1
+      - path: Root/joint16/joint17
+        weight: 1
+      - path: Root/joint16/joint18
+        weight: 1
+      - path: Root/joint16/joint18/joint19
+        weight: 1
+      - path: Root/joint16/joint18/joint19/joint20
+        weight: 1
+      - path: Root/joint16/joint18/joint19/joint20/joint21
+        weight: 1
+      - path: Root/joint16/joint18/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: Root/joint16/joint18/joint19/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: Root/joint16/joint24
+        weight: 1
+      - path: Root/joint16/joint24/joint19 1
+        weight: 1
+      - path: Root/joint16/joint24/joint19 1/joint20 1
+        weight: 1
+      - path: Root/joint16/joint24/joint19 1/joint20 1/joint21 1
+        weight: 1
+      - path: Root/joint16/joint24/joint19 1/joint20 1/joint21 1/joint22 1
+        weight: 1
+      - path: Root/joint16/joint24/joint19 1/joint20 1/joint21 1/joint22 1/joint23
+          1
+        weight: 1
+      - path: Root/joint16/joint25
+        weight: 1
+      - path: Root/joint16/joint25/joint19 2
+        weight: 1
+      - path: Root/joint16/joint25/joint19 2/joint20 2
+        weight: 1
+      - path: Root/joint16/joint25/joint19 2/joint20 2/joint21 2
+        weight: 1
+      - path: Root/joint16/joint25/joint19 2/joint20 2/joint21 2/joint22 2
+        weight: 1
+      - path: Root/joint16/joint25/joint19 2/joint20 2/joint21 2/joint22 2/joint23
+          2
+        weight: 1
+      - path: Root/joint16/joint26
+        weight: 1
+      - path: Root/joint16/joint26/joint19 3
+        weight: 1
+      - path: Root/joint16/joint26/joint19 3/joint20 3
+        weight: 1
+      - path: Root/joint16/joint26/joint19 3/joint20 3/joint21 3
+        weight: 1
+      - path: Root/joint16/joint26/joint19 3/joint20 3/joint21 3/joint22 3
+        weight: 1
+      - path: Root/joint16/joint26/joint19 3/joint20 3/joint21 3/joint22 3/joint23
+          3
+        weight: 1
+      - path: Root/joint16/joint27
+        weight: 1
+      - path: Root/joint16/joint27/joint19 4
+        weight: 1
+      - path: Root/joint16/joint27/joint19 4/joint20 4
+        weight: 1
+      - path: Root/joint16/joint27/joint19 4/joint20 4/joint21 4
+        weight: 1
+      - path: Root/joint16/joint27/joint19 4/joint20 4/joint21 4/joint22 4
+        weight: 1
+      - path: Root/joint16/joint27/joint19 4/joint20 4/joint21 4/joint22 4/joint23
+          4
+        weight: 1
+      - path: Root/joint16/joint28
+        weight: 1
+      - path: Root/joint16/joint28/joint19 5
+        weight: 1
+      - path: Root/joint16/joint28/joint19 5/joint20 5
+        weight: 1
+      - path: Root/joint16/joint28/joint19 5/joint20 5/joint21 5
+        weight: 1
+      - path: Root/joint16/joint28/joint19 5/joint20 5/joint21 5/joint22 5
+        weight: 1
+      - path: Root/joint16/joint28/joint19 5/joint20 5/joint21 5/joint22 5/joint23
+          5
+        weight: 1
+      - path: Root/joint16/joint29
+        weight: 1
+      - path: Root/joint16/joint29/joint19 6
+        weight: 1
+      - path: Root/joint16/joint29/joint19 6/joint20 6
+        weight: 1
+      - path: Root/joint16/joint29/joint19 6/joint20 6/joint21 6
+        weight: 1
+      - path: Root/joint16/joint29/joint19 6/joint20 6/joint21 6/joint22 6
+        weight: 1
+      - path: Root/joint16/joint29/joint19 6/joint20 6/joint21 6/joint22 6/joint23
+          6
+        weight: 1
+      - path: Root/joint16/joint30
+        weight: 1
+      - path: Root/joint16/joint30/joint19 7
+        weight: 1
+      - path: Root/joint16/joint30/joint19 7/joint20 7
+        weight: 1
+      - path: Root/joint16/joint30/joint19 7/joint20 7/joint21 7
+        weight: 1
+      - path: Root/joint16/joint30/joint19 7/joint20 7/joint21 7/joint22 7
+        weight: 1
+      - path: Root/joint16/joint30/joint19 7/joint20 7/joint21 7/joint22 7/joint23
+          7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

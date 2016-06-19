@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 88a9866728d7c464b9c77e62f489c0e5
+timeCreated: 1466214335
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: wHub006
+    100004: wHub007
+    100006: wHub008
+    100008: wHub009
+    100010: wHub010
+    100012: wHub011
+    100014: wHub012
+    100016: wHub013
+    100018: wLArm1
+    100020: wLArmCollarbone
+    100022: wLArmPalm
+    100024: wRArm1
+    100026: wRArmCollarbone
+    100028: wRArmPalm
+    100030: wSpine1
+    100032: wSpine1 1
+    100034: wSpine1 2
+    100036: wSpine1 3
+    100038: wSpine1 4
+    100040: wSpine1 5
+    100042: wSpine1 6
+    100044: wSpine2
+    100046: wSpine2 1
+    100048: wSpine2 2
+    100050: wSpine2 3
+    100052: wSpine2 4
+    100054: wSpine2 5
+    100056: wSpine2 6
+    100058: wSpine3
+    100060: wSpine3 1
+    400000: //RootNode
+    400002: wHub006
+    400004: wHub007
+    400006: wHub008
+    400008: wHub009
+    400010: wHub010
+    400012: wHub011
+    400014: wHub012
+    400016: wHub013
+    400018: wLArm1
+    400020: wLArmCollarbone
+    400022: wLArmPalm
+    400024: wRArm1
+    400026: wRArmCollarbone
+    400028: wRArmPalm
+    400030: wSpine1
+    400032: wSpine1 1
+    400034: wSpine1 2
+    400036: wSpine1 3
+    400038: wSpine1 4
+    400040: wSpine1 5
+    400042: wSpine1 6
+    400044: wSpine2
+    400046: wSpine2 1
+    400048: wSpine2 2
+    400050: wSpine2 3
+    400052: wSpine2 4
+    400054: wSpine2 5
+    400056: wSpine2 6
+    400058: wSpine3
+    400060: wSpine3 1
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 78
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: wHub006
+        weight: 1
+      - path: wHub006/wSpine1
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wLArmCollarbone
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wLArmCollarbone/wLArm1
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wLArmCollarbone/wLArm1/wLArmPalm
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wRArmCollarbone
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wRArmCollarbone/wRArm1
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wRArmCollarbone/wRArm1/wRArmPalm
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4/wHub011
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4/wHub011/wSpine1 5
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4/wHub011/wSpine1 5/wSpine2 5
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4/wHub011/wSpine1 5/wSpine2 5/wHub012
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4/wHub011/wSpine1 5/wSpine2 5/wHub012/wSpine1 6
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4/wHub011/wSpine1 5/wSpine2 5/wHub012/wSpine1 6/wSpine2 6
+        weight: 1
+      - path: wHub006/wSpine1/wSpine2/wHub007/wSpine1 1/wSpine2 1/wSpine3/wHub008/wSpine1
+          2/wSpine2 2/wSpine3 1/wHub009/wSpine1 3/wSpine2 3/wHub010/wSpine1 4/wSpine2
+          4/wHub011/wSpine1 5/wSpine2 5/wHub012/wSpine1 6/wSpine2 6/wHub013
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

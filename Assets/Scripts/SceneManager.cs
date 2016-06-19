@@ -5,10 +5,14 @@ public class SceneManager : MonoBehaviour {
 
 	[SerializeField] Transform[] scenes;
 	public int currentScene;
+
 	[SerializeField] Reaktion.ConstantMotion camRoot;
 	Reaktion.JitterMotion jitter;
 	Camera cam;
 
+	[SerializeField] Transform SkySphere;
+	[SerializeField] Transform Clouds;
+	[SerializeField] Texture2D[] SkyTex;
 
 	// Use this for initialization
 	void Start () {
@@ -33,9 +37,11 @@ public class SceneManager : MonoBehaviour {
 
 
 		//	cam motion
-		if (currentScene == 0) {
+		if ((currentScene == 0) || (currentScene == 3)) {
 			if (!camRoot.rotateMode) {
 				camRoot.position.mode = Reaktion.ConstantMotion.TransformMode.ZAxis;
+				camRoot.rotation.mode = Reaktion.ConstantMotion.TransformMode.YAxis;
+				camRoot.rotation.velocity = 2.0f;
 				camRoot.rotation.randomness = 1;
 
 				jitter.positionFrequency = jitter.rotationFrequency = 0.1f;
@@ -46,19 +52,32 @@ public class SceneManager : MonoBehaviour {
 				jitter.positionOctave = jitter.rotationOctave = 1;
 			}
 
-		} else if (currentScene == 1) {
+		} else if ((currentScene == 1) || (currentScene == 2)) {
 			
 			camRoot.position.mode = Reaktion.ConstantMotion.TransformMode.Off;
 			camRoot.rotation.mode = Reaktion.ConstantMotion.TransformMode.YAxis;
-			camRoot.rotation.velocity = 30.0f;
-			camRoot.rotation.randomness = 0;
+			camRoot.rotation.velocity = 20.0f;
+			camRoot.rotation.randomness = 3;
 
 			jitter.positionFrequency = jitter.rotationFrequency = 0.2f;
 			jitter.positionAmount = 5.0f;
-			jitter.rotationAmount = 8.0f;
+			jitter.rotationAmount = 10.0f;
 			jitter.positionComponents = jitter.rotationComponents = new Vector3 (1,1,1);
 			jitter.positionOctave = jitter.rotationOctave = 3;
 		
+		}
+
+
+		// sky
+		if(currentScene == 0){
+			SkySphere.GetComponent<Renderer>().material.mainTexture = SkyTex[0];
+			Clouds.gameObject.SetActive (true);
+		}else if(currentScene == 1){
+			SkySphere.GetComponent<Renderer>().material.mainTexture = SkyTex[1];
+			Clouds.gameObject.SetActive (false);
+		}else if(currentScene == 3){
+			SkySphere.GetComponent<Renderer>().material.mainTexture = SkyTex[3];
+			Clouds.gameObject.SetActive (false);
 		}
 
 	}
@@ -76,10 +95,23 @@ public class SceneManager : MonoBehaviour {
 		}
 
 		currentScene = _num;
-
-		camRoot.transform.position = new Vector3 (0,1,-5);
-		camRoot.transform.rotation = Quaternion.Euler (0,0,0);
+		CamReset ();
 
 	}
+
+
+	void CamReset(){
+		
+		camRoot.transform.position = new Vector3 (0,1,-5);
+		camRoot.transform.rotation = Quaternion.Euler (0,0,0);
+		camRoot.rotation.velocity = camRoot.rotation.randomness = 0.0f;
+
+		jitter.positionFrequency = jitter.rotationFrequency = 0.0f;
+		jitter.positionAmount =	jitter.rotationAmount = 0.0f;
+		jitter.positionComponents = jitter.rotationComponents = Vector3.zero;
+		jitter.positionOctave = jitter.rotationOctave = 0;
+
+	}
+
 
 }
